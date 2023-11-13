@@ -1,0 +1,98 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background: url(https://cdn.pixabay.com/photo/2016/05/20/18/57/fractal-1405730_1280.jpg) center/cover
+      no-repeat;
+  }
+  h1 {
+    text-align: center;
+    color: aqua;
+    font-family: cursive;
+    font-size: xx-large;
+  }
+  form {
+    position: relative;
+    top: 10vh;
+    max-width: 450px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+  }
+  input {
+    color: aqua;
+    text-shadow: 2px 2px 1px #333;
+  }
+  li {
+    color: aqua;
+    width: 100%;
+    background-color: rgba(218, 212, 212, 0.2);
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 1px #333;
+    text-align: center;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    border: 1px solid aqua;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 10px 2px rgba(11, 60, 66, 0.6);
+    transition: 0.3s linear;
+  }
+  
+  li:hover {
+    background-color: rgba(218, 212, 212, 0.4);
+    transition: 0.3s linear;
+  }
+  .task-list li.completed {
+    color: greenyellow;
+  }
+  .delete_task {
+    cursor: pointer;
+  }
+
+
+  .social-icons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    font-size: 24px; 
+    color: #fff; 
+    margin: 0 10px; 
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: aqua;
+  }
+
+  .connect-message {
+    font-size: 16px; 
+    color: #fff; 
+    margin-top: 10px;
+  }
+
+
+ 
+  header {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1rem 0;
+    position: relative; 
+  }
+  
+ 
+  .header-image {
+    max-width: 15%; 
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+  }
+  
+  
+  
+  
